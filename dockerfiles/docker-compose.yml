@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  webserver:
+    restart: on-failure
+    build:
+      context: ..
+      dockerfile: dockerfiles/development.dockerfile
+    ports:
+      - 8080:80
+    volumes:
+      - ../src:/app:cached

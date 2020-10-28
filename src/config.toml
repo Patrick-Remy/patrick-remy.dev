@@ -1,0 +1,33 @@
+baseURL = "https://patrick-remy.dev/"
+theme = "hello-friend-ng"
+languageCode = "de-DE"
+
+title = 'Hi, Im Pat!'
+copyright = "Patrick Remy"
+
+
+[params]
+  homeSubtitle = "Software Developer // Wuppertal, Germany"
+
+  # Metadata mostly used in document's head
+  description = "Blog of Patrick Remy, Full Stack Developer in Wuppertal"
+  keywords = "blog, homepage, patrick remy, developer"
+  images = [""]
+
+  # Default theme "light" or "dark"
+  defaultTheme = "light"
+
+  # footerLeft = ""
+  footerRight = "Theme by <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>"
+
+[params.logo]
+  logoText = "patrick-remy.dev"
+
+[params.portrait]
+  path = "https://avatars1.githubusercontent.com/u/20044441"
+  alt = "Patrick Remy Avatar"
+  maxwidth = "200px"
+
+[[params.social]]
+  name = "github"
+  url = "https://github.com/Patrick-Remy"
