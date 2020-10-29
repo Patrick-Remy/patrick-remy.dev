@@ -2,7 +2,7 @@ baseURL = "https://patrick-remy.dev/"
 theme = "hello-friend-ng"
 languageCode = "de-DE"
 
-title = 'Hi, Im Pat!'
+title = "Hi, I'm Pat!"
 copyright = "Patrick Remy"
 
 
