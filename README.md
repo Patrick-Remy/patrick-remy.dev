@@ -4,6 +4,8 @@ Source of my personal static generated website at [patrick-remy.dev](http://patr
 
 ## Build and run 🚀
 
+Ensure to use `git clone --recurse-submodules` or run `git submodule update --init` to fetch the theme submodule.
+
 ### Development use
 ```sh
 cd dockerfiles
